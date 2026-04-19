@@ -15,6 +15,6 @@ public class Application {
 
     @GetMapping("/")
     public String home() {
-        return "App is running from Docker 🚀";
+        return "App is running 🚀";
     }
 }
